@@ -124,8 +124,8 @@ function FAQ() {
             <div className="col">
               <div className="size">
                 <img
-                  width="530"
-                  height="277"
+                  width="100%"
+                  height="100%"
                   src="image/movie.jpg"
                   alt="Movie"
                 />
@@ -247,7 +247,12 @@ function FAQ() {
         <div className="row">
           <div className="col ">
             <div>
-              <img width="530" height="270" src="image/1502.jpg" alt="Movie" />
+              <img
+                width="100%"
+                height="100%"
+                src="image/1502.jpg"
+                alt="Movie"
+              />
             </div>
           </div>
           <div className="col ">
