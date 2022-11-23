@@ -5,6 +5,8 @@ import reportWebVitals from "./reportWebVitals";
 import MoviesList from "./Component/MoviesList";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Moviedetail from "./Component/Moviedetail";
+import About from "./Component/About";
+import FAQ from "./Component/FAQ";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,6 +15,8 @@ root.render(
       <Routes>
         <Route path="/" element={<MoviesList />} />
         <Route path="/:imdbId" element={<Moviedetail />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

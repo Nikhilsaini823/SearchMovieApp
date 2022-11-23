@@ -48,7 +48,9 @@ export default function MoviesList() {
           <div class="card shadow-sm">
             <img
               src={
-                movie.Poster == "N/A" ? "/missingmovieposter.jpg" : movie.Poster
+                movie.Poster == "N/A"
+                  ? "/image/missingmovieposter.jpg"
+                  : movie.Poster
               }
               class="bd-placeholder-img card-img-top"
             />
