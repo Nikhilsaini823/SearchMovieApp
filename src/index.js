@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Moviedetail from "./Component/Moviedetail";
 import About from "./Component/About";
 import FAQ from "./Component/FAQ";
+import Privacy from "./Component/Privacy";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +17,7 @@ root.render(
         <Route path="/" element={<MoviesList />} />
         <Route path="/:imdbId" element={<Moviedetail />} />
         <Route path="/about" element={<About />} />
+        <Route path="/privacy" element={<Privacy />} />
         <Route path="/faq" element={<FAQ />} />
       </Routes>
     </BrowserRouter>
