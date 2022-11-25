@@ -185,7 +185,7 @@ export default function MoviesList() {
         <h3>Top news </h3>
         <Carousel responsive={responsive}>{renderNews()}</Carousel>
       </div>
-      {newsUrl.length > 0 && <iframe src={newsUrl} />}
+      {/* {newsUrl.length > 0 && <iframe src={newsUrl} />} */}
     </div>
   );
 }
