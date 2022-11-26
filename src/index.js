@@ -8,6 +8,7 @@ import Moviedetail from "./Component/Moviedetail";
 import About from "./Component/About";
 import FAQ from "./Component/FAQ";
 import Privacy from "./Component/Privacy";
+import { Login } from "./Component/Login";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,6 +20,7 @@ root.render(
         <Route path="/about" element={<About />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
